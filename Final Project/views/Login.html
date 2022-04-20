@@ -1,0 +1,67 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <script src="Login.js"></script>
+  <fieldset class="header">
+    <table width="100%">
+      <tr>
+        <td>
+          <h1>FARMER'S HELP CENTER</h1>
+        </td>
+        <td align="right">
+
+          <a class="link" href="Login.php">Login</a>
+          <a> | </a>
+          <a class="link" href="../controller/Logout.php">Logout</a>
+        </td>
+      </tr>
+    </table>
+  </fieldset>
+  <fieldset>
+    <form method="POST" action="../controller/Logincheck.php" class="fermer-form">
+      <fieldset class="inner-fieldset">
+        <legend>
+          <h2>LOGIN</h2>
+        </legend>
+        <table>
+          <tr>
+            <td>Username: </td>
+            <td>
+              <input class="input" type="text" name="username" value="" oninput="nameValid()"><br>
+              <small id="userError" style="color: red;"></small>
+            </td>
+          </tr>
+          <tr>
+            <td>Password: </td>
+            <td>
+              <input class="input" type="password" name="password" value="" oninput="passvalid()">
+              <br>
+              <small id="passError" style="color: red;"></small>
+            </td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <input type="checkbox" name="" value=""> Remember me
+          </tr>
+          <tr>
+            <td><input type="submit" class="button" name="submit" value="submit"> <br>
+              <a class="link" href="Forgot Password.php">Forgot Password?</a>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </fieldset>
+
+
+
+</body>
+
+</body>
+
+</html>

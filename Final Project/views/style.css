@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+fieldset {
+    border: none;
+}
+
+.inner-fieldset {
+    border: 1px solid black;
+}
+
+.header {
+    background-color: aquamarine;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.fermer-form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    padding: 8px;
+}
+
+.button {
+    width: 100px;
+    background: aquamarine;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    padding: 5px 0;
+    color: black;
+}
+
+/* registration */
+
+.reg-form {
+    width: 1000px;
+}
+
+.dob {
+    width: 50px;
+}
+
+.nopadding {
+    padding: 0;
+    margin: 0;
+}
+
+/* userlist */
+.user-header {
+    background-color: aquamarine;
+    padding: 10px;
+
+}
+
+.user-header a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.user-form {
+    width: 600px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.user-form td {
+    padding: 10px;
+}
+
+/* home  */
+.home a {
+    text-decoration: none;
+}
+
+.home a:hover {
+    color: white;
+}
+
+.home h3 {
+    text-align: center;
+}
+
+.home table {
+    border: 1px solid black;
+    width: 600px;
+    margin: 10px auto;
+
+}
+
+.home .home-item {
+    padding: 10px;
+}
+
+.home .home-item:hover {
+    background-color: black;
+    padding: 10px;
+}
